@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-mode body{
+  padding: 10px;
+  background-color: rgb(241, 232, 232);
+}
+.dark-mode body{
+  background-color: black;
+}
+.headingsports{
+  border-bottom: 2px solid rgb(107, 107, 219);
+  margin-bottom: 20px;
+  width:70px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+.sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.light-mode .imagestyle{
+  padding: 15px;
+  background-color: white;
+}
+
+
+.light-mode .container{
+  background-color:  rgb(226, 224, 224);
+  margin-right: 10px;
+}
+
+.dark-mode .container{
+  background-color: rgb(72, 72, 72);
+  margin-right: 10px;
+
+}
+.txt{
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-mode .txt{
+  background-color: rgb(72, 72, 72);
+}
+.sub{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.dark-mode .sub{
+  background-color:rgb(22, 20, 20);
+  margin:10px;
+  padding: 2px;
+}
+
+.subtext{
+  padding: 10px;
+  font-size: 10px;
+}
+.event{
+  color: gray;
+}
+
+.dicks{
+  padding:5px;
+  background-color: white;
+  width:1500px;
+}
+
+.dark-mode .dicks{
+  background-color: rgb(72, 72, 72);
+
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+
+}
+
+button{
+  background-color: rgb(40, 124, 157);
+  padding:10px;
+  color:white;
+  font-weight: bolder;
+}
+
+.collection{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.dark-mode .collection{
+  background-color: rgb(72, 72, 72);
+
+}
+
+.collection h1{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.subcoll{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont{
+  text-align: center;
+  margin-right: 10px;
+  
+}
+
+.dark-mode .cont{
+  background-color: rgb(72, 72, 72);
+
+}
+
+.cont .subcoll{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.dark-mode .cont .subcoll{
+  background-color: rgb(72, 72, 72);
+
+}
+.but{
+  background-color: black;
+  color:white;
+  margin:20px;
+  padding: 5px;
+}
+
+img{
+  padding:10px;
+}
+
+.largecoll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre{
+  color:blue;
+  margin: 30px;
+  padding: 8px;
+  cursor: pointer;
+  border: 2px solid blue;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .collection{
+  background-color:rgb(22, 20, 20);
+
+}
