@@ -1,7 +1,17 @@
 
 
-export default function Collcont({imageurl, text, address, time, coll}) {
-    return (
+import React from 'react';
+
+interface CollcontProps {
+  imageurl: string;
+  text: string;
+  address: string;
+  time: string;
+  coll: string;
+}
+
+const Collcont: React.FC<CollcontProps> = ({ imageurl, text, address, time, coll }) => {
+     return (
         <div className='cont'>
         <img className="imagestyle" src={imageurl}></img>
         <p className="txt">{text}</p>
@@ -19,3 +29,4 @@ export default function Collcont({imageurl, text, address, time, coll}) {
     );
   }
   
+  export default Collcont;
