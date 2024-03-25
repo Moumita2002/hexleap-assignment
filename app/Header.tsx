@@ -5,10 +5,7 @@ import Container from './Container';
 
 export default function Header() {
 
-  // Function to toggle between light and dark modes
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-  };
+  
     return (
       <main>
         <h1 className='headingsports'>Sports</h1>
