@@ -1,7 +1,16 @@
 
 
-export default function Container({imageurl, text, tot, sport}) {
-    return (
+import React from 'react';
+
+interface ContainerProps {
+  imageurl: string;
+  text: string;
+  tot: string;
+  sport: string;
+}
+
+const Container: React.FC<ContainerProps> = ({ imageurl, text, tot, sport }) => {
+     return (
         <div className='container'>
         <img className="imagestyle" src={imageurl}></img>
         <p className="txt">{text}</p>
@@ -20,3 +29,4 @@ export default function Container({imageurl, text, tot, sport}) {
     );
   }
   
+  export default Container;
